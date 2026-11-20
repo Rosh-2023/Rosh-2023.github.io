@@ -6,10 +6,8 @@ permalink: /contact/
 
 For research discussions, scientific collaboration, teaching material or questions about the tutorials, you can contact me through the channels below.
 
-- **Email:** [Add your professional email address](mailto:your.email@example.com)
+- **Email:** [md-salman.raza@universite-paris-saclay.fr](mailto:md-salman.raza@universite-paris-saclay.fr)
 - **GitHub:** [github.com/Rosh-2023](https://github.com/Rosh-2023)
-- **LinkedIn:** [Add your LinkedIn profile]
-- **ORCID:** [Add your ORCID profile]
-- **Google Scholar:** [Add your Google Scholar profile]
-
-Please replace the example email and profile links before publishing.
+- **LinkedIn:** [https://www.linkedin.com/in/salman-raza-1157b3147]
+- **ORCID:** [https://orcid.org/0009-0009-5236-6454]
+- **Google Scholar:** [Google Scholar profile]
