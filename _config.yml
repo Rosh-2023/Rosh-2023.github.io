@@ -1,0 +1,39 @@
+title: "Salman Raza"
+description: "Planetary scientist | Microwave remote sensing | Radar physics"
+url: "https://rosh-2023.github.io"
+baseurl: ""
+lang: en
+timezone: Europe/Paris
+
+# GitHub Pages supports the Minima theme through its github-pages build.
+theme: minima
+
+header_pages:
+  - research.md
+  - publications.md
+  - thesis.md
+  - teaching.md
+  - projects.md
+  - cv.md
+  - contact.md
+
+minima:
+  skin: classic
+  social_links:
+    - { platform: github, user_url: "https://github.com/Rosh-2023" }
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - .github
