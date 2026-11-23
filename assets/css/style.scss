@@ -187,7 +187,6 @@ body {
    Footer and social links
 -------------------------------- */
 
-/* Custom footer */
 
 .site-footer {
   border-top: 1px solid #e3eaf0;
@@ -195,22 +194,53 @@ body {
   padding: 22px 0;
 }
 
-.footer-social {
+.footer-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 30px;
 }
 
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
 .footer-social a {
-  color: #1f5b86;
-  font-weight: 600;
-  text-decoration: none;
+  display: inline-flex;
+  color: #344a62;
+  transition: color 0.2s ease;
 }
 
 .footer-social a:hover {
-  text-decoration: underline;
+  color: #1f5b86;
 }
+
+.footer-social svg {
+  width: 25px;
+  height: 25px;
+}
+
+.footer-description {
+  max-width: 500px;
+  color: #607086;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-description {
+    text-align: center;
+  }
+}
+
 
 
 /* --------------------------------
