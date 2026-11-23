@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Salman Raza
 ---
 
 <section class="hero">
