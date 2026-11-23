@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Teaching & tutorials
+title: Tutorials
 permalink: /teaching/
 ---
 
