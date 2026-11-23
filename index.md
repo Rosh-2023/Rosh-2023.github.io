@@ -7,9 +7,9 @@ I am currently a postdoctoral researcher at LATMOS and GEOPS laboratory in Paris
 
 <figure>
   <img src="{{ '/assets/images/Radar_sketch.jpg' | relative_url }}"
-       alt="Saturn's icy moon Enceladus"
+       alt="Microwave radar and radiometry sketch"
        style="width: 60%; border-radius: 8px;">
-  <figcaption>Enceladus — a world with a water-rich subsurface ocean and active south polar terrain.</figcaption>
+  <figcaption>Sketch illustrating the two modes of radar remote sensing.</figcaption>
 </figure>
 
 
