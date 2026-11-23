@@ -92,3 +92,21 @@ body {
   .feature-section { padding: 48px 0; }
   .callout { align-items: flex-start; flex-direction: column; padding: 25px; }
 }
+
+/* Hide the default footer title and description */
+.footer-col-1 {
+  display: none;
+}
+
+/* Center the social media links */
+.footer-col-2 {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
