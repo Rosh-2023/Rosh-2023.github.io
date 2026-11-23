@@ -6,7 +6,7 @@ permalink: /cv/
 
 ## Salman Raza
 
-**Planetary scientist | Microwave remote sensing | Radar physics**
+**Planetary scientist | Microwave remote sensing | Radar | Radiometry**
 
 My work focuses on electromagnetic scattering, radiative transfer, thermal modelling and inversion methods for interpreting active and passive microwave observations.
 
