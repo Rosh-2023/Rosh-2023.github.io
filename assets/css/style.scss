@@ -1,7 +1,6 @@
 ---
 ---
 
-
 @import "minima";
 
 /* --------------------------------
@@ -187,60 +186,67 @@ body {
    Footer and social links
 -------------------------------- */
 
-
 .site-footer {
   border-top: 1px solid #e3eaf0;
   background: #f8fafc;
-  padding: 22px 0;
+  padding: 16px 0;
 }
 
-.footer-content {
+.site-footer .footer-content {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 
-.footer-social {
+.site-footer .footer-social {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  gap: 18px;
+  gap: 14px;
+  flex-shrink: 0;
 }
 
-.footer-social a {
+.site-footer .footer-social a {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: #344a62;
-  transition: color 0.2s ease;
+  text-decoration: none;
 }
 
-.footer-social a:hover {
+.site-footer .footer-social a:hover {
   color: #1f5b86;
 }
 
-.footer-social svg {
-  width: 25px;
-  height: 25px;
+.site-footer .footer-social svg {
+  display: block;
+  width: 20px;
+  height: 20px;
 }
 
-.footer-description {
-  max-width: 500px;
+.site-footer .footer-description {
+  flex: 1;
+  max-width: 600px;
+  margin-left: auto;
   color: #607086;
-  font-size: 0.85rem;
-  line-height: 1.5;
+  font-size: 0.8rem;
+  line-height: 1.4;
   text-align: right;
 }
 
 @media screen and (max-width: 600px) {
-  .footer-content {
+  .site-footer .footer-content {
     flex-direction: column;
-    gap: 15px;
+    gap: 12px;
   }
 
-  .footer-description {
+  .site-footer .footer-description {
+    margin-left: 0;
     text-align: center;
   }
 }
-
 
 
 /* --------------------------------
