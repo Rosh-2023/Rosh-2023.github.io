@@ -110,3 +110,47 @@ body {
   justify-content: center;
   gap: 20px;
 }
+
+
+/* Homepage introduction */
+
+.intro-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 30px;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.intro-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.intro-image figure {
+  margin: 0;
+}
+
+.intro-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.intro-image figcaption {
+  font-size: 0.85rem;
+  color: #777;
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* Mobile layout */
+
+@media screen and (max-width: 768px) {
+  .intro-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
