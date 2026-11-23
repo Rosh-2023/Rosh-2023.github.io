@@ -8,6 +8,6 @@ For research discussions, scientific collaboration, teaching material or questio
 
 - **Email:** [md-salman.raza@universite-paris-saclay.fr](mailto:md-salman.raza@universite-paris-saclay.fr)
 - **GitHub:** [github.com/Rosh-2023](https://github.com/Rosh-2023)
-- **LinkedIn:** [https://www.linkedin.com/in/salman-raza-1157b3147]
-- **ORCID:** [https://orcid.org/0009-0009-5236-6454]
+- **LinkedIn:** [https://www.linkedin.com/in/salman-raza-1157b3147](https://www.linkedin.com/in/salman-raza-1157b3147)
+- **ORCID:** [https://orcid.org/0009-0009-5236-6454](https://orcid.org/0009-0009-5236-6454)
 - **Google Scholar:** [Google Scholar profile]
