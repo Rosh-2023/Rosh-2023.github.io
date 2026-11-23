@@ -3,4 +3,280 @@
 ---
 
 @import "minima";
-@import "css/style";
+/* --------------------------------
+   General website styling
+-------------------------------- */
+
+:root {
+  --ink: #14243a;
+  --muted: #607086;
+  --blue: #1f5b86;
+  --line: #e3eaf0;
+  --paper: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--ink);
+  background: var(--paper);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.wrapper {
+  max-width: 1120px;
+}
+
+.site-header {
+  border-top: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.site-title,
+.site-title:visited {
+  color: var(--ink);
+  font-weight: 700;
+  letter-spacing: -.03em;
+}
+
+.site-nav .page-link {
+  color: #344a62;
+}
+
+.page-content {
+  padding-top: 25px;
+}
+
+.page-content h1,
+.page-content h2,
+.page-content h3 {
+  color: var(--ink);
+  letter-spacing: -.025em;
+}
+
+.page-content h1 {
+  font-size: 2.5rem;
+  margin-top: 30px;
+}
+
+.page-content h2 {
+  margin-top: 2.2em;
+}
+
+.page-content .post-content,
+.page-content article {
+  color: #30445a;
+}
+
+
+/* ------------------Homepage introduction 
+------------------------------------------------*/
+
+.home .intro-container {
+  display: grid !important;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 35px;
+  align-items: center;
+  margin: 35px 0 55px;
+}
+
+.home .intro-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #344a62;
+}
+
+.home .intro-image figure {
+  margin: 0;
+}
+
+.home .intro-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.home .intro-image figcaption {
+  font-size: 0.85rem;
+  color: #607086;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .home .intro-container {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
+
+/* --------------------------------
+   Teaching and tutorial pages
+-------------------------------- */
+
+.tutorial-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 28px 0;
+}
+
+.tutorial-card {
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  padding: 22px;
+}
+
+.tutorial-card h2 {
+  margin: 8px 0;
+  font-size: 1.3rem;
+}
+
+.tutorial-card p {
+  color: var(--muted);
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 9px;
+  background: #edf3f7;
+  color: #45647e;
+  border-radius: 20px;
+  font-size: .78rem;
+}
+
+
+/* --------------------------------
+   Projects page
+-------------------------------- */
+
+.project-item {
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 25px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.project-item h2 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.project-item p {
+  color: var(--muted);
+}
+
+
+/* --------------------------------
+   Links and buttons
+-------------------------------- */
+
+.text-link,
+.feature-card__link {
+  color: var(--blue);
+  font-weight: 650;
+}
+
+
+/* --------------------------------
+   Footer and social links
+-------------------------------- */
+
+.site-footer {
+  border-top: 1px solid #e3eaf0;
+  background: #f8fafc;
+  padding: 16px 0;
+}
+
+.site-footer .footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.site-footer .footer-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+.site-footer .footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #344a62;
+  text-decoration: none;
+}
+
+.site-footer .footer-social a:hover {
+  color: #1f5b86;
+}
+
+.site-footer .footer-social svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.site-footer .footer-description {
+  flex: 1;
+  max-width: 600px;
+  margin-left: auto;
+  color: #607086;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  .site-footer .footer-content {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .site-footer .footer-description {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+
+/* --------------------------------
+   Responsive layout
+-------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+  .intro-container {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin: 25px 0 40px;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+  }
+
+  .intro-image {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+
+  .tutorial-grid,
+  .project-item {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .page-content h1 {
+    font-size: 2rem;
+  }
+}
