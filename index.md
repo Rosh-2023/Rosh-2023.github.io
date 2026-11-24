@@ -52,6 +52,12 @@ title: Salman Raza
            alt="L4 Enceladus">
       <p>ESA L4 Enceladus mission meeting at CNES, Paris</p>
     </div>
+
+    <div class="slide">
+      <img src="{{ '/assets/images/slideshow/Nejla_defense.jpeg' | relative_url }}"
+           alt="Nejla defense">
+      <p>At the occasion of PhD defense of my freind Nejla Ećo on November 23, 2026 at Sorbonne Université, Paris</p>
+    </div>
     
 
     <button class="slide-prev" aria-label="Previous image">&#10094;</button>
