@@ -25,7 +25,7 @@ title: Salman Raza
 
 <section class="research-slideshow">
 
-  <h2>Research in images</h2>
+  
 
   <div class="slideshow-container">
 
