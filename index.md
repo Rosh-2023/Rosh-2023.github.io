@@ -7,7 +7,7 @@ title: Salman Raza
 
   <div class="intro-text">
 
-    I am currently a postdoctoral researcher at LATMOS and GEOPS laboratories in Paris, working at the intersection of planetary science and microwave remote sensing, with a focus on radar and radiometry observations.
+    I am currently a postdoctoral researcher at LATMOS and GEOPS laboratories in Paris, working on the observation of planetary surface and subsurfaces in microwave domain through radar and radiometry observations. To know more about my previous research experiences and interests please check research and CV sections. I also love to know and play with SAR techniques and methods, go through tutorials and codes which might be interesting. 
 
   </div>
 
@@ -52,7 +52,7 @@ et al., 2018</p>
     <div class="slide">
       <img src="{{ '/assets/images/slideshow/Thesis_defense_Salman.jpeg' | relative_url }}"
            alt="Thesis defense Salman">
-      <p>A photo from my PhD defense on September 30, 2026 at Sorbonne Université, Paris</p>
+      <p>A glimpse from my PhD defense on September 30, 2026 at Sorbonne Université, Paris</p>
     </div>
 
     <div class="slide">
