@@ -26,4 +26,40 @@ My PhD research investigated anomalous regions of Enceladus through the joint an
 
 **Research themes:** Cassini RADAR · microwave backscatter · brightness temperature · porous icy regolith · radiative transfer · thermal modelling · inversion.
 
-*Add selected figures, a short project summary and links to related publications here.*
+<section class="research-slideshow">
+
+  
+
+  <div class="slideshow-container">
+
+    <div class="slide active">
+      <img src="{{ '/assets/images/slideshow/cassini_radar.jpg' | relative_url }}"
+           alt="Cassini RADAR observations of Enceladus' South Polar terrain on Nov 6, 2011 during its closest approach">
+      <p>Cassini RADAR observations of Enceladus' South Polar terrain on Nov 6, 2011 during its closest approach. Figure modified from raza et al., 2026. Along and across track resolutions are marked.</p>
+    </div>
+
+    <div class="slide">
+      <img src="{{ '/assets/images/slideshow/Polarimetry_exampl_SAR.jpg' | relative_url }}"
+           alt="Polarimetric radar output">
+      <p>Polarimetric decomposition products from SAR backscatter. Image Credit: NASA JPL</p>
+    </div>
+
+    <div class="slide">
+      <img src="{{ '/assets/images/slideshow/Altimetry_example.jpg' | relative_url }}"
+           alt="Interferometric radar output">
+      <p>Sea ice thicknesses measured from CryoSat-2 microwave altimetry data for two different different times (a)
+autumn (October/November) 2016 and (b) spring (March/April) 2017. Figure from Tilling
+et al., 2018</p>
+    </div>
+
+    
+    <button class="slide-prev" aria-label="Previous image">&#10094;</button>
+    <button class="slide-next" aria-label="Next image">&#10095;</button>
+
+  </div>
+
+  <div class="slide-dots"></div>
+
+</section>
+
+<script src="{{ '/assets/js/slideshow.js' | relative_url }}" defer></script>
