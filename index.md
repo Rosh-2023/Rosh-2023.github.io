@@ -31,32 +31,34 @@ title: Salman Raza
 
     <div class="slide active">
       <img src="{{ '/assets/images/slideshow/cassini_radar.jpg' | relative_url }}"
-           alt="Cassini RADAR observations">
-      <p>Cassini RADAR observations of Enceladus</p>
+           alt="Cassini RADAR observations of Enceladus' South Polar terrain on Nov 6, 2011 during its closest approach">
+      <p>Cassini RADAR observations of Enceladus' South Polar terrain on Nov 6, 2011 during its closest approach. Figure modified from raza et al 2026</p>
     </div>
 
     <div class="slide">
-      <img src="{{ '/assets/images/slideshow/polarimetry.jpg' | relative_url }}"
+      <img src="{{ '/assets/images/slideshow/Polarimetry_exampl_SAR.jpg' | relative_url }}"
            alt="Polarimetric radar output">
-      <p>Polarimetric radar processing</p>
+      <p>Polarimetric decomposition products from SAR backscatter. Image Credit: NASA JPL</p>
     </div>
 
     <div class="slide">
-      <img src="{{ '/assets/images/slideshow/interferometry.jpg' | relative_url }}"
+      <img src="{{ '/assets/images/slideshow/Altimetry_example.jpg' | relative_url }}"
            alt="Interferometric radar output">
-      <p>Interferometric analysis</p>
+      <p>Sea ice thicknesses measured from CryoSat-2 microwave altimetry data for two different different times (a)
+autumn (October/November) 2016 and (b) spring (March/April) 2017. Figure from Tilling
+et al., 2018</p>
     </div>
 
     <div class="slide">
-      <img src="{{ '/assets/images/slideshow/radar_model.jpg' | relative_url }}"
-           alt="Radar modelling results">
-      <p>Radar scattering and modelling</p>
+      <img src="{{ '/assets/images/slideshow/Thesis_defense_Salman.jpeg' | relative_url }}"
+           alt="Thesis defense Salman">
+      <p>A photo from my PhD defense on September 30, 2026 at Sorbonne Université, Paris</p>
     </div>
 
     <div class="slide">
       <img src="{{ '/assets/images/slideshow/conference.jpg' | relative_url }}"
            alt="Conference presentation">
-      <p>Research presentations and conferences</p>
+      <p>Myself presenting at EPSC 2026 in The Hagues, The Netherlands</p>
     </div>
 
     <button class="slide-prev" aria-label="Previous image">&#10094;</button>
