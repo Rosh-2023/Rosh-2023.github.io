@@ -16,7 +16,7 @@ title: Salman Raza
       <img src="{{ '/assets/images/Radar_sketch.jpg' | relative_url }}"
            alt="Microwave radar and radiometry sketch">
       <figcaption>
-        Sketch illustrating the two modes of radar remote sensing. Credit- slide from Alice LE GALL's master course on remote sensing
+        Sketch illustrating the two modes of radar remote sensing. Credit- Alice LE GALL
       </figcaption>
     </figure>
   </div>
