@@ -56,7 +56,7 @@ et al., 2018</p>
     </div>
 
     <div class="slide">
-      <img src="{{ '/assets/images/slideshow/conference.jpg' | relative_url }}"
+      <img src="{{ '/assets/images/slideshow/conference.png' | relative_url }}"
            alt="Conference presentation">
       <p>Myself presenting at EPSC 2026 in The Hagues, The Netherlands</p>
     </div>
