@@ -32,7 +32,7 @@ title: Salman Raza
     <div class="slide active">
       <img src="{{ '/assets/images/slideshow/cassini_radar.jpg' | relative_url }}"
            alt="Cassini RADAR observations of Enceladus' South Polar terrain on Nov 6, 2011 during its closest approach">
-      <p>Cassini RADAR observations of Enceladus' South Polar terrain on Nov 6, 2011 during its closest approach. Figure modified from raza et al 2026</p>
+      <p>Cassini RADAR observations of Enceladus' South Polar terrain on Nov 6, 2011 during its closest approach. Figure modified from raza et al., 2026. Along and across track resolutions are marked.</p>
     </div>
 
     <div class="slide">
