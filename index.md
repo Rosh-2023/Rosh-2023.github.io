@@ -7,7 +7,7 @@ title: Salman Raza
 
   <div class="intro-text">
 
-    I am currently a postdoctoral researcher at LATMOS and GEOPS laboratories in Paris, working on the observation of planetary surface and subsurfaces in microwave domain through radar and radiometry observations. To know more about my previous research experiences and interests please check research and CV sections. I also love to know and play with SAR techniques and methods, go through tutorials and codes which might be interesting. 
+    I am currently a postdoctoral researcher at LATMOS and GEOPS laboratories in Paris, working on the observation of planetary surface and subsurfaces in microwave domain through radar and radiometry observations. To know more about my previous research experiences and interests please check research and CV sections. 
 
   </div>
 
