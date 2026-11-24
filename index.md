@@ -25,30 +25,16 @@ title: Salman Raza
 
 <section class="research-slideshow">
 
-  
+  <h2>Glimpses from work</h2>
 
   <div class="slideshow-container">
 
     <div class="slide active">
-      <img src="{{ '/assets/images/slideshow/cassini_radar.jpg' | relative_url }}"
-           alt="Cassini RADAR observations of Enceladus' South Polar terrain on Nov 6, 2011 during its closest approach">
-      <p>Cassini RADAR observations of Enceladus' South Polar terrain on Nov 6, 2011 during its closest approach. Figure modified from raza et al., 2026. Along and across track resolutions are marked.</p>
+      <img src="{{ '/assets/images/slideshow/conference.png' | relative_url }}"
+           alt="Conference presentation">
+      <p>Myself presenting at EPSC 2026 in The Hagues, The Netherlands</p>
     </div>
-
-    <div class="slide">
-      <img src="{{ '/assets/images/slideshow/Polarimetry_exampl_SAR.jpg' | relative_url }}"
-           alt="Polarimetric radar output">
-      <p>Polarimetric decomposition products from SAR backscatter. Image Credit: NASA JPL</p>
-    </div>
-
-    <div class="slide">
-      <img src="{{ '/assets/images/slideshow/Altimetry_example.jpg' | relative_url }}"
-           alt="Interferometric radar output">
-      <p>Sea ice thicknesses measured from CryoSat-2 microwave altimetry data for two different different times (a)
-autumn (October/November) 2016 and (b) spring (March/April) 2017. Figure from Tilling
-et al., 2018</p>
-    </div>
-
+    
     <div class="slide">
       <img src="{{ '/assets/images/slideshow/Thesis_defense_Salman.jpeg' | relative_url }}"
            alt="Thesis defense Salman">
@@ -56,10 +42,17 @@ et al., 2018</p>
     </div>
 
     <div class="slide">
-      <img src="{{ '/assets/images/slideshow/conference.png' | relative_url }}"
-           alt="Conference presentation">
-      <p>Myself presenting at EPSC 2026 in The Hagues, The Netherlands</p>
+      <img src="{{ '/assets/images/slideshow/Helsinki_EPSC_Thomas.jpeg' | relative_url }}"
+           alt="EPSC 2025 Helsinki">
+      <p>Myself with my friend Thomas Le Liboux at EPSC 2025 in Helsinki, Finland</p>
     </div>
+
+    <div class="slide">
+      <img src="{{ '/assets/images/slideshow/L4_mission_CNES.jpeg' | relative_url }}"
+           alt="L4 Enceladus">
+      <p>ESA L4 Enceladus mission meeting at CNES, Paris</p>
+    </div>
+    
 
     <button class="slide-prev" aria-label="Previous image">&#10094;</button>
     <button class="slide-next" aria-label="Next image">&#10095;</button>
