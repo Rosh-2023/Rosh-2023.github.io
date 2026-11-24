@@ -74,8 +74,8 @@ body {
 
 .home .intro-container {
   display: grid !important;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 35px;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 30px;
   align-items: center;
   margin: 35px 0 55px;
 }
@@ -202,7 +202,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 14px;
+  gap: 18px;
   flex-shrink: 0;
 }
 
@@ -220,8 +220,8 @@ body {
 
 .site-footer .footer-social svg {
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 28px;
+  height: 28px;
 }
 
 .site-footer .footer-description {
@@ -229,7 +229,7 @@ body {
   max-width: 600px;
   margin-left: auto;
   color: #607086;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   line-height: 1.4;
   text-align: right;
 }
